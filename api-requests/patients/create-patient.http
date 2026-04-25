@@ -1,0 +1,14 @@
+### POST request to create Patient
+
+POST http://localhost:4000/patient/create
+Content-Type: application/json
+
+{
+  "name": "Anupam kafka",
+  "email": "tstkafka@xampl.com",
+  "address": "Ranchi JharKhand",
+  "dateOfBirth": "1999-09-09",
+  "registeredDate": "2024-11-10"
+}
+
+###
